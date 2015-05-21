@@ -1,0 +1,10 @@
+<h1>Signup</h1>
+<form  >
+  <input type="email" name="email">
+  <input type="password" name="password">
+  <input type="submit" onclick="creteUser()" value="submit">
+</form>
+
+<script>var creteUser = function(){
+        socket.get('/user/testSocket/',req.allParams());
+    }</script>
